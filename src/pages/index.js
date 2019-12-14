@@ -10,6 +10,18 @@ const keyword = ['blog', 'gerardo gallegos', 'javascript', 'react', 'tecs.ninja'
 const HomePage = ({ location, data }) => {
   const posts = data.allMdx.edges
 
+  React.useEffect(() => {
+    const getData = async () => {
+      const res = await fetch('https://jsonplaceholder.typicode.com/photos')
+      const data = await res.json()
+      const photosFiltered = data.slice(0, 3)
+
+      console.log(filterData)
+    }
+
+    getData()
+  }, [])
+
   return (
     <Layout location={location} title={siteTitle}>
       <Seo
