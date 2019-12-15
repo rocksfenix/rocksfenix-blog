@@ -24,6 +24,8 @@ None of the implementations shown in this section will work if props.list is rec
 * This is soo cool!
 * Awesome nince cool
 
+![universidad react](https://res.cloudinary.com/luxfenix/image/upload/v1576434618/Exmaples/Uni_React_lpkbtd.png)
+
 ```javascript
 import { PureComponent } from 'react'
 ...
