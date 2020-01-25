@@ -1,4 +1,10 @@
 ---
+tags:
+  - development
+  - income
+  - es6
+  - flag
+  - mapa
 path: como-crear-aplicaciones-react
 date: 2019-11-25T19:03:09.558Z
 title: Como crear aplicaciones con React
