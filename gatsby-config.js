@@ -79,11 +79,11 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Gatsby Starter Blog',
+        name: 'Gerardo Gallegos Personal Blog',
         short_name: 'GatsbyJS',
         start_url: '/',
         background_color: '#ffffff',
-        theme_color: '#663399',
+        theme_color: '#07004c',
         display: 'minimal-ui',
         // edit below
         icon: 'content/assets/favicon.svg'
