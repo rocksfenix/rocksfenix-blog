@@ -120,9 +120,6 @@ class Layout extends React.Component {
           </div>
           <Footer>
             Twitter - Githug - Youtube - Instagram
-          {/* © {new Date().getFullYear()}, RocksFenix
-            {' '}
-            <a href='https://www.gatsbyjs.org'>Love</a> */}
           </Footer>
         </Wrapper>
       </>
