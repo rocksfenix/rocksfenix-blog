@@ -30,7 +30,7 @@ const HomePage = ({ location, data }) => {
       />
       <p>Blog personal de <a href='https://mobile.twitter.com/rocksFenix'>Gerardo Gallegos</a></p>
       <p>
-        Inquieto, pionero en lo sublime y en lo vital, amante del desarrollo, el aprendizaje continuo! Soy un desarrollador web fullstack que me apasiona trabajar con tecnologias basadas en Javascript tal como React, Vue, Angular, Babel, Webpack y amigos :) Me apasiona aprender y enseñar todos los dias.
+        Inquieto, rastreador de lo sublime y lo vital, amante del desarrollo y el aprendizaje continuo! Soy un desarrollador web fullstack que me apasiona trabajar con tecnologias basadas en Javascript tal como React, Vue, Angular, Babel, Webpack y amigos :) Me apasiona aprender y enseñar todos los dias.
       </p>
       <p>
         <span role='img' aria-label='Person'> 🧔 </span>
