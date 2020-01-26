@@ -21,8 +21,6 @@ class Blog extends React.Component {
         <div style={{ margin: '20px 0 40px' }}>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
-            alert()
-            console.log(node)
             return (
               <div key={node.fields.slug}>
                 <h3
