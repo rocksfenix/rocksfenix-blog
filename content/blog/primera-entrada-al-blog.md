@@ -4,7 +4,7 @@ tags:
 path: hello
 date: 2020-01-26T01:09:11.048Z
 title: Primera Entrada al Blog
-description: Comenzamos con este blog
+description: Comenzamos con este blog...
 ---
 Los últimos días había estado saturado de trabajo pero no quería ya dejar pasar mas tiempo sin que comenzara este blog ya que lo había estado posponiendo durante mucho tiempo.
 
