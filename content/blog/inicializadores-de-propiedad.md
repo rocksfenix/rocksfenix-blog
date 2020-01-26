@@ -3,6 +3,9 @@ path: que-rayos-son-los-inicializadores-de-propiedad
 date: 2019-12-04T23:43:26.995Z
 title: El Duro pero delicioso desarrollo Frontend
 description: Properti inizializers
+tags:
+  - flag
+  - brand
 ---
 La vida del desarrollador frontend es dura, ahora no por falta de herramientas, si no porque cada dia surgen mejores herramientas que nos ayudan a crear soluciones mas optimizadas y con un facil mantenimiento.
 

@@ -16,7 +16,7 @@ const HomePage = ({ location, data }) => {
       const data = await res.json()
       const photosFiltered = data.slice(0, 3)
 
-      console.log(filterData)
+      console.log(photosFiltered)
     }
 
     getData()
@@ -30,7 +30,7 @@ const HomePage = ({ location, data }) => {
       />
       <p>Blog personal de <a href='https://mobile.twitter.com/rocksFenix'>Gerardo Gallegos</a></p>
       <p>
-        Soy un desarrollador web fullstack que me apasiona trabajar con tecnologias basadas en Javascript tal como React, Vue, Angular, Babel, Webpack y amigos :) Me apasiona aprender y enseñar todos los dias.
+        Inquieto, pionero en lo sublime y en lo vital, amante del desarrollo, el aprendizaje continuo! Soy un desarrollador web fullstack que me apasiona trabajar con tecnologias basadas en Javascript tal como React, Vue, Angular, Babel, Webpack y amigos :) Me apasiona aprender y enseñar todos los dias.
       </p>
       <p>
         <span role='img' aria-label='Person'> 🧔 </span>

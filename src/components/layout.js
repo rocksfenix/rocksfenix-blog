@@ -1,58 +1,58 @@
 /* globals __PATH_PREFIX__ */
 import React from 'react'
 import { Link } from 'gatsby'
-import styled, { createGlobalStyle } from 'styled-components'
-import typography, { rhythm, scale } from '../utils/typography'
-import { TypographyStyle, GoogleFont } from 'react-typography'
+import styled from 'styled-components'
+// import typography, { rhythm, scale } from '../utils/typography'
 import Navegation from './navegation'
+import { GlobalStyles } from '../utils/global'
 
-export const GlobalStyles = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Martel|Open+Sans:800,800i&display=swap');
+// export const GlobalStyles = createGlobalStyle`
+//   @import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Martel|Open+Sans:800,800i&display=swap');
 
-  html, body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Martel', serif;
-    overflow-x: hidden;
-    overflow-y: auto;
-  }
+//   html, body {
+//     margin: 0;
+//     padding: 0;
+//     font-family: 'Martel', serif;
+//     overflow-x: hidden;
+//     overflow-y: auto;
+//   }
 
-  p {
-    margin-top: 2em;
-  }
+//   p {
+//     margin-top: 2em;
+//   }
 
-  h1, h2, h3 {
-    font-family: 'Bowlby One SC', cursive;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #333242;
-  }
+//   h1, h2, h3 {
+//     font-family: 'Bowlby One SC', cursive;
+//     font-family: 'Open Sans', sans-serif;
+//     text-transform: uppercase;
+//     letter-spacing: 1px;
+//     color: #333242;
+//   }
 
-  a {
-    color: #ff5200;
-  }
+//   a {
+//     color: #ff5200;
+//   }
 
-  a:hover {
-    text-decoration: underline;
-  }
+//   a:hover {
+//     text-decoration: underline;
+//   }
 
-  h3 a {
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    position: relative;
-    font: 800 2rem/1 'Open Sans',sans-serif;
-    font-size: 26px;
-    text-transform: uppercase;
-    color: #34323b;
-    margin-bottom: 5rem;
-    letter-spacing: -1px;
-  }
+//   h3 a {
+//     text-decoration: none;
+//     font-family: 'Open Sans', sans-serif;
+//     position: relative;
+//     font: 800 2rem/1 'Open Sans',sans-serif;
+//     font-size: 26px;
+//     text-transform: uppercase;
+//     color: #34323b;
+//     margin-bottom: 5rem;
+//     letter-spacing: -1px;
+//   }
 
-  main {
-    margin-top: 2em;
-  }
-`
+//   main {
+//     margin-top: 2em;
+//   }
+// `
 
 class Layout extends React.Component {
   render () {
@@ -65,8 +65,7 @@ class Layout extends React.Component {
       header = (
         <h1
           style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
+            marginBottom: '1.45rem',
             marginTop: 0
           }}
         >
@@ -86,7 +85,6 @@ class Layout extends React.Component {
       header = (
         <h3
           style={{
-            fontFamily: 'Montserrat, sans-serif',
             marginTop: 0
           }}
         >
@@ -111,8 +109,8 @@ class Layout extends React.Component {
             style={{
               marginLeft: 'auto',
               marginRight: 'auto',
-              maxWidth: 680, // rhythm(24),
-              padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`
+              maxWidth: 680 // rhythm(24),
+              // padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`
             }}
           >
             <GlobalStyles />

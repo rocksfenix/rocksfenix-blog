@@ -1,4 +1,8 @@
 ---
+tags:
+  - development
+  - flag
+  - brand
 path: new-blog-post
 date: 2019-12-04T18:25:54.952Z
 title: New Blog Post via Webpack an React

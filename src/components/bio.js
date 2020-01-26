@@ -34,18 +34,20 @@ const Bio = () => {
               }}
             />
             <p>
-              Escrito por <strong>{author}</strong> quien es un apasionadopor el mundo de desarrollo basado en tecnologias Javascript
-              {' '}
+              Escrito por <strong>{author}</strong> quien es inquieto, rastreador de lo sublime y lo vital, amante del desarrollo y el aprendizaje continuo!
+              &nbsp;
+              Deberias seguirlo en &nbsp;
               <a href={`https://twitter.com/${social.twitter}`}>
-                deberias seguirlo en Twitter
+                Twitter
                 <span role='img' aria-label='wave emoji'>
                   😉
                 </span>
               </a>
+              &nbsp; o visitar su canal de &nbsp;
               <a href='https://www.youtube.com/channel/UCUG3rE3syMzYWCtGmlaU3KQ'>
-                O visitar su canal de Yotube
+                Yotube
                 <span role='img' aria-label='wave emoji'>
-                  😉
+                  👌
                 </span>
               </a>
             </p>
